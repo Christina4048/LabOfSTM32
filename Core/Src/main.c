@@ -111,7 +111,7 @@ int main(void)
     /* USER CODE END WHILE */
 
       myData = LIS3DSH_GetDataScaled();
-      HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+      HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_15);
 
     /* USER CODE BEGIN 3 */
   }
